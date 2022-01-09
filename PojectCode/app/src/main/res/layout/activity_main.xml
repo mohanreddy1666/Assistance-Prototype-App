@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#77F3BDBD"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="285dp"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="82dp"
+        android:text="Assistant App"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/rp"
+        android:layout_width="212dp"
+        android:layout_height="170dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="242dp"
+        android:layout_marginRight="198dp"
+        android:layout_marginBottom="20dp"
+        android:background="#7BB5E8"
+        android:drawableTop="@drawable/ic_camera_phone_foreground"
+        android:text="Camera"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#1A31E8"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/shareimage"
+        android:layout_width="221dp"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="198dp"
+        android:layout_marginTop="242dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="#7A81C6"
+        android:drawableTop="@drawable/ic_share_foreground"
+        android:text="Share"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#283593"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="212dp"
+        android:layout_height="170dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="426dp"
+        android:layout_marginRight="198dp"
+        android:layout_marginBottom="700dp"
+        android:background="#D8C88F"
+        android:drawableTop="@drawable/ic_call_foreground"
+        android:text="Call"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#283593"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_width="221dp"
+        android:layout_height="170dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="198dp"
+        android:layout_marginTop="426dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="700dp"
+        android:background="#D68585"
+        android:drawableTop="@drawable/ic_sms_foreground"
+        android:text="Messages"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#283593"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/show_image"
+        android:layout_width="77dp"
+        android:layout_height="102dp"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginLeft="97dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="-102dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:maxWidth="100dp"
+        android:maxHeight="50dp"></ImageView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/show_image"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="437dp"
+        android:text="Denied Statistics : 0"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#77F3BDBD" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="520dp"
+        android:text="May Be : 0"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#77F3BDBD" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="285dp"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="35dp"
+        android:text="Welcome User" />
+
+
+</RelativeLayout>
